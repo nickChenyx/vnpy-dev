@@ -26,6 +26,7 @@ Release/
 
 # 本地持久化文件
 *.vn
+*.vt
 
 
 
@@ -34,20 +35,13 @@ Release/
 *.vssettings
 *.klg
 *.lkc
+*.idea
 
-<<<<<<< HEAD
-# 不想同步的
-*.local
-*.temp
-*.vt
-*.dat
-=======
-vn.ctp/build/*
-vn.lts/build/*
-.idea
->>>>>>> 65aac25731772259bf2d4049e7adbe92750ea01d
-
+FAQ/*
+vn.event/*
+vn.tutorial/*
 vn.trader/ctaAlgo/data/*
 vn.trader/build/*
 vn.trader/dist/*
 *.bak
+PyQt4-4.11.4-cp27-cp27m-win32.whl
