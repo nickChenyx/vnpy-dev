@@ -37,7 +37,6 @@ Release/
 *.lkc
 *.idea
 
-FAQ/*
 vn.event/*
 vn.tutorial/*
 vn.trader/ctaAlgo/data/*
