@@ -442,7 +442,7 @@ class PriceWidget(QtGui.QWidget):
             self.pw2.removeItem(self.candle)
             self.candle = self.CandlestickItem(self.listBar)
             self.pw2.addItem(self.candle)
-            self.plotText()   # 显示开仓信号位置
+            # self.plotText()   # 显示开仓信号位置
 
     # ----------------------------------------------------------------------
     def plotTendency(self):
