@@ -122,13 +122,13 @@ class MainWindow(QtGui.QMainWindow):
         functionMenu.addAction(self.createAction(vtText.RISK_MANAGER, self.openRm))
         
         # 算法相关
-        strategyMenu = menubar.addMenu(vtText.STRATEGY)
-        strategyMenu.addAction(self.createAction(vtText.CTA_STRATEGY, self.openCta))
+        # strategyMenu = menubar.addMenu(vtText.STRATEGY)
+        # strategyMenu.addAction(self.createAction(vtText.CTA_STRATEGY, self.openCta))
         
         # 帮助
         helpMenu = menubar.addMenu(vtText.HELP)
         helpMenu.addAction(self.createAction(vtText.RESTORE, self.restoreWindow))
-        helpMenu.addAction(self.createAction(vtText.ABOUT, self.openAbout))
+        # helpMenu.addAction(self.createAction(vtText.ABOUT, self.openAbout))
         helpMenu.addAction(self.createAction(vtText.TEST, self.test))
     
     # ----------------------------------------------------------------------
