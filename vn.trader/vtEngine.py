@@ -177,7 +177,7 @@ class MainEngine(object):
                 self.writeLog(text.DATABASE_CONNECTING_FAILED)
     
     # ----------------------------------------------------------------------
-    def dbInsert(self, dbName, collectionName, d):
+    def  dbInsert(self, dbName, collectionName, d):
         """向MongoDB中插入数据，d是具体数据"""
         if self.dbClient:
             db = self.dbClient[dbName]
@@ -220,6 +220,7 @@ class MainEngine(object):
             'time': log.logTime,
             'gateway': log.gatewayName
         }
+        print "dbLogging...", d
         self.dbInsert(LOG_DB_NAME, self.todayDate, d)
     
     # ----------------------------------------------------------------------
